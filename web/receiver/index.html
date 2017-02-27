@@ -1,0 +1,34 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Streamroot chromecast demo</title>
+    <meta name="description" content="streamroot chromecast demo">
+    <meta name="author" content="PLATEL Kevin">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/rickshaw/1.4.6/rickshaw.min.js">
+    </script>
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/rickshaw/1.4.6/rickshaw.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.9/d3.min.js">
+    </script>
+
+    <script src="//www.gstatic.com/cast/sdk/libs/receiver/2.0.0/cast_receiver.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- path to hlsjs-p2p-bundle build -->
+    <video controls id="video"></video>
+
+    <!-- path to hlsjs-p2p-bundle build -->
+    <script src="https://cdn.streamroot.io/hlsjs-p2p-bundle/latest/hlsjs-p2p-bundle.js"></script>
+    <script src="http://cdn.streamroot.io/2/scripts/p2pGraph.js"></script>
+    <script src="http://cdn.streamroot.io/2/scripts/peerStat.js"></script>
+    <script defer src="main.dart" type="application/dart"></script>
+    <script defer src="packages/browser/dart.js"></script>
+</body>
+
+</html>

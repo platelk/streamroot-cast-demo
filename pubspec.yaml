@@ -1,0 +1,6 @@
+name: streamroot_chromecast_demo
+dependencies:
+    html: any
+    browser: any
+    js: any
+    func: any
