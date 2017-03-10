@@ -32,7 +32,7 @@ void main() {
 
   VideoElement video = querySelector("#video") as VideoElement;
 
-  var p2pConfig = new P2pConfig(streamrootKey: "dev", debug: true, contentId: null, activateP2P: true);
+  var p2pConfig = new P2pConfig(streamrootKey: "kevinplatel", debug: true, contentId: null, activateP2P: true);
   var hlsConfig = new HlsConfig(debug: true, maxBufferSize: 0, maxBufferLenght: 30, liveSyncDuration: 30);
   
   var hls = new Hls(hlsConfig, p2pConfig);
